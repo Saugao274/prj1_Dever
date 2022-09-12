@@ -79,15 +79,16 @@
 }
 
 .middle_right_Slide {
-    height: 300px;
+    height: 250px;
     background-color: rgb(246, 246, 246);
     display: flex;
     margin: 20px;
+  justify-content: space-between;
 
 }
 
 .middle__Slide_left {
-    width: 800px;
+    width: 750px;
     height: 250px;
    background-color: rgb(94, 68, 223);
    display: flex;
@@ -110,6 +111,26 @@
 .middle__Slide_left li p{
     color: white;
     font-size: small;
+}
+.middle__Slide_right{
+    width:250px ;
+    background-color: rgb(185, 114, 114);
+    height: 250px;
+    border-radius: 20px 20px;
+   display: flex;
+   position: relative;
+}
+.middle__Slide_right_content{
+    /* width: 370px;
+    line-height: 40px;
+    padding: 30px;
+   list-style: none; */
+}
+.middle__Slide_right_img img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
 }
 
 .middle_right_2 {
