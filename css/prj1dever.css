@@ -15,6 +15,7 @@
     /*Dùng top left right với fixed cho tràn ra */
     background-color: antiquewhite;
     padding: 20px 10px;
+    z-index: 3;
 }
 
 .headleft_find {
@@ -123,19 +124,30 @@
     border-radius: 20px 20px;
     display: flex;
     position: relative;
+    z-index: 0;
 }
 
 .middle__Slide_right_content {
-    /* width: 370px;
-    line-height: 40px;
-    padding: 30px;
-   list-style: none; */
+    width: 200px;
+    line-height: 30px;
+    padding: 10px;
+   list-style: none;
+}
+.middle__Slide_right_content p{
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle__Slide_right_content a{
+    font-size: x-small;
 }
 
 .middle__Slide_right_img  {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+position: absolute;
+right:0px;
+bottom: 0px;
+
+
 }
 
 
