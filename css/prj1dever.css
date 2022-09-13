@@ -118,6 +118,7 @@
     color: white;
     font-size: small;
 }
+
 .middle__Slide_left_nut {
     display: flex;
     flex-direction: row;
@@ -169,46 +170,53 @@
 
 
 
-.middle_right_update{
-    height: 300px;
+.middle_right_update {
+    height: max-content;
     width: 1060px;
-    background-color: brown;
-    
+    background-color: rgba(240, 231, 231, 0.65);
+
 }
-.middle_right_update_content{
+
+.middle_right_update_content {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px 20px 20px;
-    
+    padding: 20px 0px ;
+
 }
-.middle_right_update_img{
-height:max-content;
-    background-color: aqua;
+
+.middle_right_update_img {
+    background-color: aliceblue;
+    width: max-content;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 20px;
 }
-.middle_right_update_img1{
-    background-color: coral;
+
+.middle_right_update_img1 {
    
-    /* padding: 10px 5px; */
-  line-height: 25px;
+    padding: 20px 8px;
+    line-height: 25px;
     text-align: center;
     display: flex;
     flex-direction: row;
     width: max-content;
+    
 }
-.middle_right_update_littleimg img{
-   width: 50px;
-   height: 50px;
-   padding-right: 10px;
+
+.middle_right_update_littleimg img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
 
 }
-.middle_right_update_nameimg{
+
+.middle_right_update_nameimg {
     padding-right: 10px;
-  
+
 }
-.middle_right_update_moreimg > div{
+
+.middle_right_update_moreimg>div {
     border-radius: 10px 10px;
     border: 1px solid black;
     padding: 3px;
