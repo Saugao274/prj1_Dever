@@ -13,8 +13,9 @@
     left: 0px;
     right: 0px;
     /*Dùng top left right với fixed cho tràn ra */
-    background-color: antiquewhite;
-    padding: 20px 10px;
+    background-color: rgb(249, 249, 249);
+    padding: 20px 0px;
+    margin: 0px 10px;
     z-index: 3;
 }
 
@@ -60,7 +61,6 @@
 
 #middle {
     display: flex;
-    padding-top: 80px;
     padding: 80px 10px;
 }
 
@@ -72,31 +72,32 @@
 }
 
 .middle_right {
-    padding-left: 210px;
+    padding-left: 200px;
     width: 1100px;
     background-color: rgba(240, 231, 231, 0.65);
     display: block;
-
+    margin-left: 20px;
 }
 
 .middle_right_Slide {
     height: 250px;
     background-color: rgb(246, 246, 246);
     display: flex;
-    margin: 20px;
+    margin: 20px 0px;
     justify-content: space-between;
 
 }
 
-.middle__Slide_left {
+#middle__Slide_left {
     width: 750px;
     height: 250px;
     background-color: rgb(94, 68, 223);
     display: flex;
     border-radius: 20px 20px;
+    position: relative;
 }
 
-.middle__Slide_left ul {
+#middle__Slide_left ul {
     width: 370px;
     line-height: 40px;
     padding: 30px;
@@ -104,7 +105,7 @@
 
 }
 
-.middle__Slide_left li a {
+#middle__Slide_left li a {
     color: white;
     font-weight: bold;
     font-size: large;
@@ -112,13 +113,20 @@
 
 }
 
-.middle__Slide_left li p {
+#middle__Slide_left li p {
     color: white;
     font-size: small;
 }
+.middle__Slide_left_nut {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+}
 
 .middle__Slide_right {
-    width: 250px;
+    width: 300px;
     background-color: rgb(185, 114, 114);
     height: 250px;
     border-radius: 20px 20px;
@@ -131,24 +139,33 @@
     width: 200px;
     line-height: 30px;
     padding: 10px;
-   list-style: none;
+    list-style: none;
 }
-.middle__Slide_right_content p{
+
+.middle__Slide_right_content p {
     font-weight: bold;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
-.middle__Slide_right_content a{
+
+.middle__Slide_right_content a {
     font-size: x-small;
 }
 
-.middle__Slide_right_img  {
-position: absolute;
-right:0px;
-bottom: 0px;
-
-
+.middle__Slide_right_img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
+
+#middle__Slide1:checked~#middle__Slide_left {
+    display: block;
+}
+
+#middle__Slide2:checked~#middle__Slide2_left {
+    display: block;
+}
+
 
 
 .middle_right_2 {
