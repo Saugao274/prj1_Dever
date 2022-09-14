@@ -360,16 +360,34 @@
     padding-left: 20px;
 }
 
-.middle_right_4 {
+.middle_right_error{
     height: 320px;
     width: 100%;
-    background-color: rgb(136, 165, 42);
+  
 }
+.middle_right_error_content{}
+.middle_right_error_in4{
+    display: grid;
+    grid-template-columns: auto auto auto;
 
+}
+.middle_right_error_in4_img img{
+    border-radius: 20px 20px;
+    height: 200px;
+    margin-top: 20px;
+    width: 300px;
+}
+.middle_right_error_in4_content{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 300px;
+}
 .middle_right_5 {
     height: 500px;
     width: 100%;
     background-color: rgb(42, 165, 65);
 }
 
-#footer {}
+#footer {
+    justify-content: space-between;
+}
