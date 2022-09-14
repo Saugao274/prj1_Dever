@@ -35,9 +35,9 @@
 }
 
 .headleft_find p {
-    font-size: small;
+    font-size: x-small;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .headleft_mid {
@@ -62,23 +62,30 @@
 
 #middle {
     display: flex;
-    padding: 80px 10px;
+    margin: 80px 10px 0px 10px;
 }
 
-.middle_left {
+.middle_list {
     position: fixed;
-    width: 200px;
-    height: 600px;
-    background-color: aqua;
+
+  
+    background-color: rgb(249, 249, 249);
     z-index: 6;
 }
+.middle_list_top > ul>li{
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
 
 .middle_right {
-    padding-left: 200px;
-    width: 1060px;
+   padding-left: 20px;
     background-color: rgba(240, 231, 231, 0.65);
     display: block;
-    margin-left: 20px;
+    margin-left: 200px;
+    border-radius: 20px 20px;
+    
 }
 
 #middle_Slide {
