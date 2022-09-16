@@ -391,7 +391,7 @@
     height: 400px;
     width: 500px;
     color: aliceblue;
-    background-image: url(prj1_Dever/img/Game/metro.jpg);
+    background-image: url(/prj1_Dever/img/Game/metro.jpg);
     background-size: cover;
     padding: 30px;
     line-height: 40px;
@@ -447,32 +447,34 @@
 .middle_right_user_public_img_middle h5:hover {
     color: rgba(23, 20, 214, 0.64);
     cursor: pointer;
- 
 
-}
-.middle_right_error_in4_img{
-cursor: pointer;
-}
-.middle_right_update_moreimg > div:hover,
-.middle_right_user_public_img_top > nav >div:hover,
-.middle_right_user_manual_imgbottom_Appfilm > nav >div:hover{
-    background-color:rgba(0,60,255, 0.481);
 
 }
 
-.middle_right_newgame_left > div > .middle_right_newgame_right_top:hover,
+.middle_right_error_in4_img {
+    cursor: pointer;
+}
+
+.middle_right_update_moreimg>div:hover,
+.middle_right_user_public_img_top>nav>div:hover,
+.middle_right_user_manual_imgbottom_Appfilm>nav>div:hover {
+    background-color: rgba(0, 60, 255, 0.481);
+
+}
+
+.middle_right_newgame_left>div>.middle_right_newgame_right_top:hover,
 .middle_newgame_right_topcontent:hover,
-.middle_right_newgame_right_top:hover{
+.middle_right_newgame_right_top:hover {
     background-color: rgb(79, 79, 230);
-   border-radius: 10px 10px;
+    border-radius: 10px 10px;
 }
-.middle_right_newgame_left > div > h3:hover{
+
+.middle_right_newgame_left>div>h3:hover {
     color: blue;
 }
-.middle_right_hotgame_blockimg img:hover{
+
+.middle_right_hotgame_blockimg img:hover {
     filter: brightness(50%);
-background: url(/img/play-solid.svg);
+    background: url(/img/play-solid.svg);
 
 }
-
-
