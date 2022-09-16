@@ -15,8 +15,8 @@
     right: 0px;
     /*Dùng top left right với fixed cho tràn ra */
     background-color: rgb(249, 249, 249);
-    padding: 20px 0px;
-    margin: 0px 10px;
+    padding: 10px;
+    margin: 0px 0px;
     z-index: 7;
 }
 
@@ -62,17 +62,18 @@
 
 #middle {
     display: flex;
-    margin: 80px 10px 0px 10px;
+    margin: 70px 0px 0px 0px;
 }
 
 .middle_list {
     position: fixed;
+ width: 170px;
 
-  
     background-color: rgb(249, 249, 249);
     z-index: 6;
 }
-.middle_list_top > ul>li{
+
+.middle_list_top>ul>li {
     padding: 5px;
     margin-left: 25px;
 }
@@ -80,12 +81,12 @@
 
 
 .middle_right {
-   padding-left: 20px;
+    padding-left: 20px;
     background-color: rgba(231, 230, 233, 0.396);
     display: block;
-    margin-left: 200px;
+    margin-left: 180px;
     border-radius: 20px 20px;
-    
+
 }
 
 #middle_Slide {
@@ -185,7 +186,7 @@
 .middle_right_update {
     height: max-content;
     width: 1060px;
-  
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -198,7 +199,7 @@
 
 .middle_right_update_img {
     background-color: aliceblue;
-    width: 1050px;
+    width: 1080px;
     display: grid;
     grid-template-columns: auto auto auto;
     border-radius: 20px 20px;
@@ -246,7 +247,7 @@
 .middle_right_user_public {
 
     width: 50%;
-   
+
 }
 
 .middle_right_user_public_content {
@@ -359,62 +360,82 @@
     line-height: 20px;
     padding-left: 20px;
 }
-.middle_right_error_in4{
+
+.middle_right_error_in4 {
     display: grid;
     grid-template-columns: auto auto auto;
 
 }
-.middle_right_error_in4_img img{
+
+.middle_right_error_in4_img img {
     border-radius: 20px 20px;
     height: 200px;
     margin-top: 20px;
     width: 300px;
 }
-.middle_right_error_in4_content{
-  margin-top: 10px;
-  font-size: 20px;
-  width: 300px;
+
+.middle_right_error_in4_content {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
 }
+
 .middle_right_newgame {
- 
+
     width: 100%;
-    
-   margin: 20px 0px;
+
+    margin: 20px 0px;
 }
-.middle_right_newgame_left{
-   
+
+.middle_right_newgame_left {
+    height: 400px;
+    width: 500px;
+    color: aliceblue;
+    background-image: url(/img/Game/metro.jpg);
+    background-size: cover;
+    padding: 30px;
+    line-height: 40px;
+
 }
-.middle_right_newgame_detail{
-    
-display: flex;
-}
-.middle_right_newgame_right{
-margin-left: 20px;
-line-height: 40px;
-}
-.middle_right_newgame_right_on{
+
+.middle_right_newgame_detail {
+
     display: flex;
-    /* padding-bottom: 10px; */
-    
 }
-.middle_right_newgame_right_top{
+
+.middle_right_newgame_right {
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.middle_right_newgame_right_on {
+    display: flex;
+    padding-bottom: 30px;
+
+}
+
+.middle_right_newgame_right_top {
     border: 1px solid;
     border-radius: 15px 15px;
-width:max-content;
-
-
+    width: max-content;
+    line-height: 20px;
+    background-color: rgba(232, 228, 228, 0.973);
     margin-top: 10px;
     box-shadow: 0px 2px 0px 0px rgb(167, 186, 187);
     display: block;
-    
+
+
 }
-.middle_newgame_right_topcontent{
- text-transform: uppercase;
- font-size: 9px;
- text-align: center;
-color: rgba(100, 90, 77, 0.574);
-padding: 2px;
+
+.middle_newgame_right_topcontent {
+    text-transform: uppercase;
+    font-size: 9px;
+    text-align: center;
+    color: rgba(100, 90, 77, 0.574);
+    padding: 0px 10px;
+
 }
+
 #footer {
     justify-content: space-between;
 }
