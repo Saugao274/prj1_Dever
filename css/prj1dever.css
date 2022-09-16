@@ -391,7 +391,7 @@
     height: 400px;
     width: 500px;
     color: aliceblue;
-    background-image: url(/img/Game/metro.jpg);
+    
     background-size: cover;
     padding: 30px;
     line-height: 40px;
@@ -471,7 +471,7 @@ cursor: pointer;
 }
 .middle_right_hotgame_blockimg img:hover{
     filter: brightness(50%);
-  
+background: url(/img/play-solid.svg);
 
 }
 
