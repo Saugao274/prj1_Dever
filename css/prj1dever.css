@@ -399,8 +399,11 @@
 }
 
 .middle_right_newgame_detail {
-
     display: flex;
+}
+
+.middle_right_newgame_detail h3 {
+    color: rgb(252, 252, 252);
 }
 
 .middle_right_newgame_right {
@@ -457,24 +460,66 @@
 
 .middle_right_update_moreimg>div:hover,
 .middle_right_user_public_img_top>nav>div:hover,
-.middle_right_user_manual_imgbottom_Appfilm>nav>div:hover {
+.middle_right_user_manual_imgbottom_Appfilm>nav>div:hover,
+.Newgame_detail1_block:hover {
     background-color: rgba(0, 60, 255, 0.481);
 
 }
 
 .middle_right_newgame_left>div>.middle_right_newgame_right_top:hover,
-.middle_newgame_right_topcontent:hover,
+
 .middle_right_newgame_right_top:hover {
     background-color: rgb(79, 79, 230);
     border-radius: 10px 10px;
 }
 
-.middle_right_newgame_left>div>h3:hover {
+.middle_right_newgame_left>div>h3:hover,
+.middle_right_newgame_detail h3:hover {
     color: blue;
+
 }
 
 .middle_right_hotgame_blockimg img:hover {
     filter: brightness(50%);
     background: url(/img/play-solid.svg);
+
+}
+
+.middle_right_update_moreimg_a:hover,
+.middle_newgame_right_topcontent:hover,
+.Newgame_detail1:hover,
+.Newgame_detail:hover,
+.middle_right_newgame_right_top>p:hover {
+    color: aliceblue;
+}
+
+/* Một số phải đưa ra để dùng hover */
+.middle_right_update_moreimg_a {
+    font-size: xx-small;
+    color: rgba(44, 60, 242, 0.841);
+    font-weight: bold;
+}
+
+
+.Newgame_detail1,
+.Newgame_detail {
+    font-size: x-small;
+    color: rgba(44, 60, 242, 0.841);
+    font-weight: bold;
+    line-height: 20px;
+
+}
+
+.Newgame_detail1_block {
+    background-color: rgb(252, 242, 242);
+    width: 100px;
+    text-align: center;
+}
+
+.middle_right_newgame_right_top>p {
+    text-transform: uppercase;
+    font-size: xx-small;
+    color: rgba(86, 80, 73, 0.8);
+    text-align: center;
 
 }
