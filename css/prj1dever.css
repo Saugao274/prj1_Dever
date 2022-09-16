@@ -435,7 +435,10 @@
     padding: 0px 10px;
 
 }
-
-#footer {
-    justify-content: space-between;
+.middle_right_hotgame{
+    
+}
+.middle_right_hotgame_block{
+display: grid;
+    grid-template-columns: auto auto auto;
 }
