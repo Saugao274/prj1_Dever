@@ -444,7 +444,19 @@
     grid-template-columns: auto auto auto;
 }
 
-/* Hover */
+.icon_play {
+    padding: 10px;
+    background-color: #cad2cfb5;
+    border-radius: 50px 50px;
+  z-index: -1;
+    display: flex;
+    position: absolute;
+top:40%;
+right:50%
+
+}
+
+/* Hover+di chuột */
 .headleft_mid nav:hover,
 .middle_list_top>ul>li:hover,
 .middle_right_user_public_img_middle h5:hover {
@@ -482,11 +494,14 @@
 
 }
 
-.middle_right_hotgame_blockimg img:hover {
+.middle_right_hotgame_blockimg:hover img {
     filter: brightness(50%);
-    background: url(/img/play-solid.svg);
 
 }
+.middle_right_hotgame_blockimg:hover .icon_play {
+z-index: 3;
+}
+
 
 .middle_right_update_moreimg_a:hover,
 .middle_newgame_right_topcontent:hover,
