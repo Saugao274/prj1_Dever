@@ -468,12 +468,15 @@
 
 .middle_right_newgame_left>div>.middle_right_newgame_right_top:hover,
 
-.middle_right_newgame_right_top:hover {
-    background-color: rgb(79, 79, 230);
+.middle_right_newgame_right_top:hover,
+.middle_list_game:hover {
+    background-color: rgba(0, 60, 255, 0.481);
+
     border-radius: 10px 10px;
 }
 
 .middle_right_newgame_left>div>h3:hover,
+.middle_list_game:hover,
 .middle_right_newgame_detail h3:hover {
     color: blue;
 
