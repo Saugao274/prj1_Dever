@@ -468,7 +468,7 @@ ol {
     height: 400px;
     width: 65%;
     color: aliceblue;
-    background-image: url(./img/Game/metro.jpg);
+    background-image: url(/prj1_Dever/img/Game/metro.jpg);
     background-size: cover;
     padding: 30px;
     line-height: 40px;
